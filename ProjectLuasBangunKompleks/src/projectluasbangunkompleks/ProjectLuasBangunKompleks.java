@@ -15,13 +15,6 @@ public class ProjectLuasBangunKompleks {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-//      Project 1
-        Persegi p = new Persegi();
-        Lingkaran l = new Lingkaran();
-        
-        double LuasBangunDatar = p.hitungLuas(42) + (l.hitungLuas(42/2) * 2);
-        System.out.println("Luas dari Bangun datar :" + LuasBangunDatar);
-        
 //      Project 2
         Persegi p2 = new Persegi();
         Lingkaran l2 = new Lingkaran();
