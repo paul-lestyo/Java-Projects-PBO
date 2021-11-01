@@ -22,7 +22,7 @@ public class GameTebakAngkaProject {
         Scanner input = new Scanner(System.in);
         Random ran = new Random();
         
-        angka = ran.nextInt(100) + 1;
+        angka = ran.nextInt(101);
         
         System.out.println("Hai.. nama saya Mr. Java, saya telah memilih sebuah bilangan bulat secara acak antara 0 s/d 100. Silakan tebak ya!!!");
         while(true) {
